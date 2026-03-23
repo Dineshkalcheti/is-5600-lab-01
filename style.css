@@ -79,7 +79,10 @@ header div a:hover {
 }
 /* Note we can use the .card class selector here, as a class has been assigned to the <section> elements. */
 .card {
-  flex: 1 1 calc(33.33% - 15px);
+  float: left;
+  display: inline-block;
+  width: calc(33% - 10px);
+  margin: 10px 5px;
   background-color: white;
 }
 
